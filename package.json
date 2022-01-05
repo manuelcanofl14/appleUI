@@ -1,0 +1,31 @@
+{
+  "name": "appleui",
+  "version": "1.0.0",
+  "description": "this is a basic appleUI based  design layout for multiple purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "npx tailwindcss -i ./src/style.css -o ./public/style.css --watch",
+    "start": "nodemon i18N/i18n-node-http.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "rep"
+  },
+  "keywords": [
+    "tailwindcss"
+  ],
+  "author": "manuel cano florez",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.7"
+  },
+  "dependencies": {
+    "i18n": "^0.13.3",
+    "i18next": "^21.6.3",
+    "json-server": "^0.17.0",
+    "nodemon": "^2.0.15"
+  }
+}
